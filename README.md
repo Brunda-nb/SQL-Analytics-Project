@@ -1,6 +1,6 @@
 # 📊 Data Warehouse Analytics  
 
-This repository contains the **business analytics layer** built on top of the [Data Warehouse Project](../data-warehouse-project).  
+This repository contains the **business analytics layer** built on top of the [../data-warehouse-project](https://github.com/Brunda-nb/SQL-DataWarehouse-Project.git).  
 It focuses on deriving **business insights** using SQL queries, exploratory analysis, and visualization.  
 
 ---
