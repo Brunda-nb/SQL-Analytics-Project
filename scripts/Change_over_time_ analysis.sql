@@ -1,30 +1,38 @@
-/* ============================================================
- Change Over Time Analysis
-============================================================ */
+/* -------------------------------------------------------------------
+   📊 Change Over Time Analysis
+------------------------------------------------------------------- 
+This section analyzes **sales performance over time** to observe 
+how revenue, customer engagement, and product demand evolve.  
+It aggregates data by **month** to reveal seasonality, growth trends, 
+and performance fluctuations across the year.
+------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------
-   WHAT:
-   Change Over Time Analysis tracks how key business metrics
-   (such as sales revenue, order volume, and customer count)
-   evolve across different time periods (daily, monthly,
-   quarterly, yearly). It provides a chronological view of
-   performance and highlights patterns or anomalies.
+/* -------------------------------------------------------------------
+   🛠️ Why Change Over Time Analysis?
+-------------------------------------------------------------------
+   Change Over Time Analysis is essential for understanding business 
+   growth patterns and identifying external/internal factors influencing sales.
 
-   WHY:
-   - Identify trends in sales and customer behavior
-   - Detect seasonality (e.g., festive spikes, off-season dips)
-   - Measure business growth or decline over time
-   - Support decisions in forecasting, marketing, and planning
+   Key benefits include:
+   ✅ Detecting seasonality and recurring sales cycles (e.g., festive seasons).  
+   ✅ Tracking business growth or decline across months.  
+   ✅ Identifying peak and low-performing periods to optimize strategy.  
+   ✅ Supporting forecasting, budgeting, and inventory planning.  
+------------------------------------------------------------------- */
 
-   HOW:
-   - Extract time components (month, quarter, year) from order_date
-   - Aggregate metrics: total revenue, total quantity sold,
-     and unique customer count for each time bucket
-   - Compare across periods (MoM, YoY) to measure growth or decline
-   - Use visualizations (line/bar/area charts) to highlight patterns
------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+   ⚡ Example Use Cases
+-------------------------------------------------------------------
+   - Sales Teams → Align targets with historically strong months.  
+   - Marketing Teams → Launch campaigns during low-sales months to boost demand.  
+   - Executives → Monitor long-term growth or decline in revenue.  
+   - Supply Chain Managers → Plan inventory and logistics based on sales peaks.  
+   - Analysts → Compare customer engagement trends over time.  
+------------------------------------------------------------------- */
 
--- Sales Performance Over Time
+/* -------------------------------------------------------------------
+   📈 Sales Performance Over Time (Monthly Trends)  
+-------------------------------------------------------------------*/
 %%sql
 select
     strftime('%m',order_date) Month,
