@@ -27,7 +27,7 @@ The roadmap includes moving into **Advanced Analytics**:
 - 🎯 **Performance analysis** – targets vs actuals, regional performance.  
 - 🥧 **Part-to-whole analysis** – share of category/region in total sales.  
 - 👥 **Data segmentation** – customer cohorts, product lines.  
-- 📊 **Automated reporting & dashboards** – Tableau / Power BI integration.  
+- 📊 **Automated reporting & dashboards** – Tableau integration.  
 
 ---
 
