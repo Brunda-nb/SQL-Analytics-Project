@@ -36,7 +36,7 @@ The roadmap includes moving into **Advanced Analytics**:
 - **SQLite** – backend database  
 - **SQL** – query language for analytics  
 - **Python (Colab / Jupyter)** – running SQL queries & visual exploration  
-- **Tableau / Power BI (planned)** – dashboarding & reporting  
+- **Tableau** – dashboarding & reporting  
 
 ---
 
